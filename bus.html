@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Bus Booking - Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <form id="bookingForm">
+      <h1>Online Bus Booking</h1>
+      <div class="nam">
+        <label style="font-weight: bold" for="from">From</label>
+        <input type="text" name="from" id="from" required />
+      </div>
+      <div id="too">
+        <label style="font-weight: bold" for="to">To</label>
+        <input type="text" name="to" id="to" required />
+      </div>
+      <div id="dat">
+        <label style="font-weight: bold" for="date">Date</label>
+        <input type="date" name="date" id="date" required />
+      </div>
+      <button
+        class="bus-booking-btn"
+        type="button"
+        onclick="navigateToNextPage()"
+      > Book
+      </button>
+    </form>
+    <main></main>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Bus</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="next-page.js" defer></script>
+  </head>
+  <body>
+    <div class="content-container">
+      <h1>Select Your Bus</h1>
+      <div class="bus-options">
+        <button
+          class="bus-option"
+          onclick="selectBus('SETC', '08:00pm', '12:00pm', '200')"
+        >
+          <div><h4>SETC</h4></div>
+          <div>08:00pm - 12:00pm</div>
+          <div>Price: 200rs</div>
+        </button>
+        <button
+          class="bus-option"
+          onclick="selectBus('Amaravathi', '09:00pm', '13:00pm', '250')"
+        >
+          <div><h4>Amaravathi</h4></div>
+          <div>09:00pm - 13:00pm</div>
+          <div>Price: 250rs</div>
+        </button>
+        <button
+          class="bus-option"
+          onclick="selectBus('Airavat', '10:00pm', '14:00pm', '300')"
+        >
+          <div><h4>Airavat</h4></div>
+          <div>10:00pm - 14:00pm</div>
+          <div>Price: 300rs</div>
+        </button>
+        <button
+          class="bus-option"
+          onclick="selectBus('Nue GO', '11:00pm', '15:00pm', '350')"
+        >
+          <div><h4>Nue GO</h4></div>
+          <div>11:00pm - 15:00pm</div>
+          <div>Price: 350rs</div>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
