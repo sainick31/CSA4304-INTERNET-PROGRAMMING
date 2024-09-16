@@ -1,0 +1,16 @@
+<script>
+function validateRegisterForm() {
+    var name = document.getElementById("name").value;
+    var uname = document.getElementById("uname").value;
+    var email = document.getElementById("email").value;
+    var age = document.getElementById("age").value;
+    var password = document.getElementById("ps").value;
+
+    if (name == "" || uname == "" || email == "" || age == "" || password == "") {
+        alert("All fields must be filled out");
+        return false;
+    }
+    return true;
+}
+
+</script>
