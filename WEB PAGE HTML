@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>hotel booking</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="top">
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#register">Register</a></li>
+<li><a href="#login">Login</a></li>
+<li><a href="#contact">About us</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="home">
+<div class="Container">
+<h2><center><mark>Pleasant Days Rooms and Resorts</mark></center></h2>
+<center><img src="hotel.jpg" width="400" heigth="900" alt="woops takes time"/></center>
+<p><pre><h4>Welcome to the Pleasant Days Hotel Management System, your comprehensive solution for streamlining hotel
+operations and enhancing guest experiences. Designed with efficiency and user-friendliness in mind, our system 
+offers a robust suite of features to manage every aspect of your hotel. There will be such a very pleasant
+environment and such a friendly surroundings. Our branches are there at many places such as Chennai, Ooty,
+Kodaikkanal, Munnar and Kerala.</h4></pre></p>
+</div> <br><br>
+</section>
+
+<section id="register">
+<div class="Container">
+
+<div class="box">
+<center>
+<h2><u>Enter the user informations</u></h2>
+</center><br><br>
+
+<form action="registration.php" method="post" id="regform">
+Name:<input type="text" name="name" required placeholder="Type your name here"/>
+<br><br>
+
+Phone Number:<input type="text" name="phno" id="phno" required placeholder="phone number"/>
+<br>
+<span id="reg-error"></span><br>
+user name:<input type="text" name="uname" required placeholder="Type your name"/><br><br>
+Password:<input type="password" name="password" id="password" required placeholder="Password"/><br><br>
+Re-type Password:<input type="password" name="retype-password" id="retype" required placeholder="Re-type"/><br><br>
+Gender:<input type="radio" name="Gender" id="male" value="male"/>Male
+<input type="radio" name="Gender" id="female" value="Female"/>Female<br><br>
+Rooms:<select name="room">
+<option value="none" selected>Choose your required room</option>
+<option value="Single Bedroom">Single Bedroom</option>
+<option value="Double Bedroom">Double Bedroom</option>
+<option value="Triple Bedroom">Triple Bedroom</option>
+<option value="Resort">Resort</option>
+</select><br><br>
+No.of.persons:<input type="number" min="1" max="10" name="noOfPersons" required/><br><br>
+<input type="submit" value="Submit"/>
+</div>
+</div>
+</section>
+</form>
+<section id="login">
+<div class="Container">
+<div class="box">
+<center><h2><u>Login</u></h2></center><br><br>
+<form action="Login.php" method="post" id="login">
+Username:<input type="text" name="uname" id="uname" required placeholder="username"/><br><br>
+Password:<input type="password" name="password" id="password" required placeholde="password"/><br><br>
+<input type="Submit" value="Submit"/>
+</div>
+</div>
+</section>
+</form>
+<section id="contact">
+<div class="container>
+<div class="box">
+<center><h2>About us</h2></center>
+<ul>
+<li>hayagrishv@gmail.com</li>
+<li>7358239136</li>
+</ul>
+</div><br><br>
+</section>
+</main>
+<footer>
+<p>@ Copyright 2024 Nayanam Simulation Tech.pvt.ltd</p>
+</footer>
+</body>
+</html>
